@@ -1115,10 +1115,25 @@ body {
     }
 
     /* Hide Decorations on Mobile */
-    .decorations-container,
-    .photo-tree-decorations {
-
+    .deco-figure-1 {
+        top: 10%;
+        left: 35%;
     }
+
+    .deco-figure-2 {
+        bottom: 56%;
+        right: 3%;
+    }
+
+    .deco-figure-3 {
+        bottom: 62%;
+        left: 5%;
+    }
+
+    .deco-star-4, .deco-star-3 {
+        display: none;
+    }
+    
 
     /* Photo Tree Mobile */
     .photo-tree-shape {
