@@ -1369,8 +1369,9 @@ body {
     }
 
     .love-2 {
-        bottom: 46%;
-        left: -1%;
+        z-index: 1000;
+        bottom: 47%;
+        left: 1%;
     }
 
     .love-1 {
