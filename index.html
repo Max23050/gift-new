@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎄 С Новым Годом! 🎄</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500&family=Marck+Script&family=Montserrat:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Screen 1: Christmas Tree -->
+    <div class="screen screen-1 active" id="screen1">
+        <div class="decorations-container">
+            <img src="img/star-new.svg" class="deco-star deco-star-1" alt="">
+            <img src="img/star-new.svg" class="deco-star deco-star-2" alt="">
+            <img src="img/star-new.svg" class="deco-star deco-star-3" alt="">
+            <img src="img/star-new.svg" class="deco-star deco-star-4" alt="">
+            <img src="img/star-new.svg" class="deco-star deco-star-5" alt="">
+            <img src="img/star-new.svg" class="deco-star deco-star-6" alt="">
+            <img src="img/star-new.svg" class="deco-star deco-star-7" alt="">
+
+            <img src="img/figure.svg" class="deco-figure deco-figure-1" alt="">
+            <img src="img/figure.svg" class="deco-figure deco-figure-2" alt="">
+            <img src="img/figure.svg" class="deco-figure deco-figure-3" alt="">
+        </div>
+        <div class="screen-content">
+            <div class="tree-container">
+                <img src="img/tree.svg" alt="Новорічна ялинка" class="christmas-tree" id="tree">
+            </div>
+            <div class="greeting-text" id="greetingText">
+                <p>Поздравляем с Новым годом! И хочется всем пожелать, чтобы в наступающем году с нами произошло то
+                    самое чудо, о котором мы все так мечтаем.</p>
+            </div>
+            <button class="magic-button" id="lightTreeBtn">
+                Зажечь елку ⭐️
+            </button>
+        </div>
+    </div>
+
+    <!-- Screen 1.5: Photo Tree -->
+    <div class="screen screen-photo-tree" id="screenPhotoTree">
+        <!-- Decorations -->
+        <div class="photo-tree-decorations">
+            <img src="img/figure.svg" class="photo-deco-figure photo-deco-1" alt="">
+            <img src="img/figure.svg" class="photo-deco-figure photo-deco-2" alt="">
+            <img src="img/figure.svg" class="photo-deco-figure photo-deco-3" alt="">
+        </div>
+        <div class="photo-tree-content">
+            <!-- Star at the top -->
+            <div class="photo-tree-star">
+                <img src="img/star.svg" alt="Star" class="star-icon">
+            </div>
+
+
+
+            <!-- Love decorations -->
+            <img src="img/love2.svg" alt="Love" class="love-decoration love-1">
+            <img src="img/love.svg" alt="Love" class="love-decoration love-2">
+
+            <!-- Photos arranged in tree shape -->
+            <div class="photo-tree-shape">
+                <!-- Row 1 (top) - 1 photo -->
+                <div class="photo-row row-1">
+                    <div class="photo-frame photo-1">
+                        <div class="photo-placeholder">
+                            <img src="img/photo1.jpg" alt="Photo 1">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 - 2 photos -->
+                <div class="photo-row row-2">
+                    <div class="photo-frame photo-2">
+                        <div class="photo-placeholder">
+                            <img src="img/photo2.jpg" alt="Photo 2">
+                        </div>
+                    </div>
+                    <div class="photo-frame photo-3">
+                        <div class="photo-placeholder">
+                            <img src="img/photo3.jpg" alt="Photo 3">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3 - 3 photos -->
+                <div class="photo-row row-3">
+                    <div class="photo-frame photo-4">
+                        <div class="photo-placeholder">
+                            <img src="img/photo4.jpg" alt="Photo 4">
+                        </div>
+                    </div>
+                    <div class="photo-frame photo-5">
+                        <div class="photo-placeholder">
+                            <img src="img/photo5.jpg" alt="Photo 5">
+                        </div>
+                    </div>
+                    <div class="photo-frame photo-6">
+                        <div class="photo-placeholder">
+                            <img src="img/photo6.jpg" alt="Photo 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next button -->
+            <button class="magic-button next-button" id="nextBtn">
+                Дальше ✨
+            </button>
+        </div>
+    </div>
+
+    <!-- Screen 2: Envelope with Certificates -->
+    <div class="screen screen-2" id="screen2">
+        <!-- Snowflakes -->
+        <div class="snowflakes" id="snowflakes"></div>
+
+        <div class="container">
+            <header class="header">
+                <div class="header-container">
+                    <img src="img/bow.svg" class="bow-image" alt="Bow">
+                    <img src="img/star-new.svg" class="star-decoration star-1" alt="Star">
+                    <img src="img/star-new.svg" class="star-decoration star-2" alt="Star">
+                    <img src="img/star-new.svg" class="star-decoration star-3" alt="Star">
+                    <img src="img/star-new.svg" class="star-decoration star-4" alt="Star">
+                    <h1 class="title">С Новым годом!</h1>
+                </div>
+            </header>
+
+
+            <!-- Envelope -->
+            <div class="envelope-container">
+                <div class="envelope" id="envelope">
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-body">
+                        <div class="envelope-front">
+                            <span class="envelope-text">Нажмите на меня! 💌</span>
+                        </div>
+                    </div>
+
+                    <!-- Certificates inside the envelope -->
+                    <div class="certificates" id="certificates">
+                        <a href="pdf/rozetka.pdf" target="_blank" class="certificate rozetka" id="cert-rozetka">
+                            <div class="certificate-inner">
+                                <div class="certificate-header">
+                                    <span class="store-name rozetka-name">ROZETKA</span>
+                                </div>
+                                <div class="certificate-body">
+                                    <span class="gift-text">ПОДАРОЧНЫЙ</span>
+                                    <span class="cert-text">СЕРТИФИКАТ</span>
+                                    <div class="amount">🎁</div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="pdf/jysk.pdf" target="_blank" class="certificate jysk" id="cert-jysk">
+                            <div class="certificate-inner">
+                                <div class="certificate-header">
+                                    <span class="store-name jysk-name">JYSK</span>
+                                </div>
+                                <div class="certificate-body">
+                                    <span class="gift-text">ПОДАРОЧНЫЙ</span>
+                                    <span class="cert-text">СЕТРИФИКАТ</span>
+                                    <div class="amount">🎁</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Celebration message (hidden initially) -->
+            <div class="celebration" id="celebration">
+                <div class="celebration-content">
+                    <h2>Разбирайте свои подарочки! 🎉</h2>
+                </div>
+            </div>
+
+            <!-- Confetti container -->
+            <div class="confetti-container" id="confetti"></div>
+        </div>
+    </div>
+
+    <!-- Lightbox for Photos -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="Enlarged photo">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
