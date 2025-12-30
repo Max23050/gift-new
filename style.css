@@ -1117,72 +1117,7 @@ body {
     /* Hide Decorations on Mobile */
     .decorations-container,
     .photo-tree-decorations {
-        display: block;
-    }
-
-    /* Screen 1 decorations on mobile */
-    .decorations-container {
-        z-index: 1;
-    }
-
-    .deco-star-1 {
-        top: 6%;
-        left: 8%;
-        width: 55px;
-    }
-
-    .deco-star-2 {
-        top: 12%;
-        right: 10%;
-        width: 26px;
-    }
-
-    .deco-star-3 {
-        top: 22%;
-        left: 12%;
-        width: 45px;
-    }
-
-    .deco-star-4 {
-        top: 18%;
-        right: 6%;
-        width: 65px;
-    }
-
-    .deco-star-5 {
-        top: 30%;
-        right: 30%;
-        width: 60px;
-    }
-
-    .deco-star-6 {
-        top: 32%;
-        left: 24%;
-        width: 60px;
-    }
-
-    .deco-star-7 {
-        top: 8%;
-        right: 24%;
-        width: 60px;
-    }
-
-    .deco-figure-1 {
-        top: 26%;
-        left: 40%;
-        width: 40px;
-    }
-
-    .deco-figure-2 {
-        top: 36%;
-        right: 18%;
-        width: 60px;
-    }
-
-    .deco-figure-3 {
-        top: 34%;
-        left: 6%;
-        width: 55px;
+        display: none;
     }
 
     /* Photo Tree Mobile */
@@ -1223,29 +1158,6 @@ body {
     .certificate {
         width: 160px;
         height: 220px;
-    }
-
-    /* Screen 1.5 decorations on mobile */
-    .photo-tree-decorations {
-        z-index: 1;
-    }
-
-    .photo-deco-1 {
-        top: 10%;
-        left: 22%;
-        width: 50px;
-    }
-
-    .photo-deco-2 {
-        top: 36%;
-        left: 10%;
-        width: 80px;
-    }
-
-    .photo-deco-3 {
-        top: 18%;
-        right: 10%;
-        width: 70px;
     }
 
     @keyframes certificatesReveal {
