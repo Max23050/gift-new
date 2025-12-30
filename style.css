@@ -1139,7 +1139,21 @@ body {
     .deco-star-4, .deco-star-3 {
         display: none;
     }
+
+    .photo-deco-3 {
+        top: 40%;
+        right: 10%;
+    }
     
+    .photo-deco-2 {
+        bottom: 4%;
+        left: 4%;
+    }
+
+    .photo-deco-3 {
+        top: 78%;
+        right: 10%;
+    }
 
     /* Photo Tree Mobile */
     .photo-tree-shape {
