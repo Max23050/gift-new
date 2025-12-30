@@ -305,6 +305,11 @@ body {
     opacity: 0;
     z-index: 5;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    image-rendering: optimizeQuality;
+    image-rendering: -webkit-optimize-contrast;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    will-change: transform;
 }
 
 .love-1 {
@@ -1177,6 +1182,7 @@ body {
 
     .love-decoration {
         width: 40px;
+        filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.08));
     }
 
     /* Certificates Mobile */
