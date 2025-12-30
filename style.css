@@ -9,7 +9,6 @@ body {
     min-height: 100vh;
     height: 100vh;
     /* Force height to viewport */
-    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     /* Prevent scroll globally */
     position: relative;
@@ -1098,6 +1097,7 @@ body {
     .screen-1 .screen-content {
         padding: 1rem;
         gap: 1rem;
+        padding-bottom: 3rem;
     }
 
     .tree-container {
