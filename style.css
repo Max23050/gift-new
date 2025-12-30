@@ -1117,7 +1117,7 @@ body {
 
     /* Hide Decorations on Mobile */
     .deco-figure-1 {
-        top: 37%;
+        top: 33%;
         left: 35%;
     }
 
@@ -1129,6 +1129,11 @@ body {
     .deco-figure-3 {
         bottom: 38%;
         left: 5%;
+    }
+
+    .deco-star-7 {
+        top: 37%;
+        right: 10%; 
     }
 
     .deco-star-4, .deco-star-3 {
