@@ -1117,7 +1117,7 @@ body {
     /* Hide Decorations on Mobile */
     .decorations-container,
     .photo-tree-decorations {
-        display: none;
+
     }
 
     /* Photo Tree Mobile */
